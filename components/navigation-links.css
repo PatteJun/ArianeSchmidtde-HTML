@@ -1,0 +1,46 @@
+.navigation-links-item-container {
+  display: flex;
+  position: relative;
+}
+.navigation-links-item-navigation-links-item {
+  color: var(--dl-color-main-bluegray);
+  font-size: 18px;
+  font-family: Be Vietnam Pro;
+  line-height: 23px;
+  margin-left: 50px;
+}
+
+.navigation-links-item-selected-container {
+  display: flex;
+  position: relative;
+}
+.navigation-links-item-selected-navigation-links-item {
+  color: var(--dl-color-main-primary);
+  font-size: 18px;
+  font-family: Be Vietnam Pro;
+  line-height: 23px;
+  margin-left: 50px;
+  text-decoration: underline;
+}
+
+
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

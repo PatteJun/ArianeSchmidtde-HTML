@@ -1,0 +1,11 @@
+.navigation-links-item-container {
+  display: flex;
+  position: relative;
+}
+.navigation-links-item-navigation-links-item {
+  color: var(--dl-color-main-bluegray);
+  font-size: 18px;
+  font-family: Be Vietnam Pro;
+  line-height: 23px;
+  margin-left: 50px;
+}
